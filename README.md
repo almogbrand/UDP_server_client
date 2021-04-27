@@ -4,10 +4,10 @@ Protocol:
  Client to Serverr commands:		<$><command><*><args><\n>
  Server to Client response:		sent as a string, client waits for the entier message to arrive
  	
- *$       - signal start of command 
- *command - given a special Commans enum, is actually an index according of its position in enum (easy for future extra commands that will be nneded) 
- *args    - i used a string, because if needed, it is easy to convert to other types 
- *\n      - signal end of commans 
+ * $       - signal start of command 
+ * command - given a special Commans enum, is actually an index according of its position in enum (easy for future extra commands that will be nneded) 
+ * args    - i used a string, because if needed, it is easy to convert to other types 
+ * \n      - signal end of commans 
  
  The protocl is not exposed to the end user. The user just needs to do is set a server, a client, and sent an SE.Commands command.
  The implementation uses the protocol in order to make sure all commands arriving safely (becasue UDP doesn't provide it by itself).
