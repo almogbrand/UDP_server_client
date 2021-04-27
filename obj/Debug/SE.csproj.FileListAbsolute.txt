@@ -1,0 +1,5 @@
+C:\Users\AlmogBrand\source\repos\SolarEdge\SE\bin\Debug\SE.dll
+C:\Users\AlmogBrand\source\repos\SolarEdge\SE\bin\Debug\SE.pdb
+C:\Users\AlmogBrand\source\repos\SolarEdge\SE\obj\Debug\SE.csproj.CoreCompileInputs.cache
+C:\Users\AlmogBrand\source\repos\SolarEdge\SE\obj\Debug\SE.dll
+C:\Users\AlmogBrand\source\repos\SolarEdge\SE\obj\Debug\SE.pdb
